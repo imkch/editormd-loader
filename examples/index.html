@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>Editor.md Loader</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="editor"></div>
+    <script src="../dist/index.js"></script>
+    <script>
+      const editormdLoader = new EditormdLoader();
+      // editormdLoader.createEditor('editor');
+      editormdLoader.markdownToHtml('editor', {
+        markdown: '# Editor.md, Hello World!'
+      });
+    </script>
+  </body>
+</html>
