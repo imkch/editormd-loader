@@ -2,7 +2,7 @@
   "name": "editormd-loader",
   "version": "1.0.0",
   "description": "一个简易的Editor.md加载工具",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "NODE_ENV=production rollup -c",
