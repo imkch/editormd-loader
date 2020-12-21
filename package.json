@@ -1,12 +1,11 @@
 {
   "name": "editormd-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个简易的Editor.md加载工具",
   "main": "dist/index.min.js",
   "scripts": {
     "dev": "rollup -c -w",
-    "build": "NODE_ENV=production rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "NODE_ENV=production rollup -c"
   },
   "homepage": "https://github.com/imkch/editormd-loader#readme",
   "repository": {

@@ -1,10 +1,3 @@
-/*
- * @Author: G.TAO
- * @Date: 2020-11-27 13:54:46
- * @LastEditors: G.TAO
- * @LastEditTime: 2020-11-27 16:55:01
- * @Description: 
- */
 import $ from 'jquery';
 
 export default class EditormdLoader {

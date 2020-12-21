@@ -1,10 +1,3 @@
-/*
- * @Author: G.TAO
- * @Date: 2020-11-27 14:02:22
- * @LastEditors: G.TAO
- * @LastEditTime: 2020-12-01 10:07:39
- * @Description: 
- */
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve';
