@@ -38,7 +38,8 @@ export default {
     isDev && serve({
       port: 8000,
       contentBase: './',
-      historyApiFallback: '/examples/index.html',
+      open: true,
+      openPage: '/examples/index.html'
     }),
     isDev && livereload()
   ]
