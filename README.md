@@ -85,9 +85,9 @@ import EditormdLoader from 'editormd-loader';
 ## 版本更新说明
 
 - **1.0.1**
-  1. 入库文件修改为index.min.js
+  - 入库文件修改为index.min.js
 
 - **1.0.0**
-  1. 异步引入Editor.md类库
-  2. 创建编辑模式
-  3. 创建markdown可视化模式
+  - 异步引入Editor.md类库
+  - 创建编辑模式
+  - 创建markdown可视化模式
