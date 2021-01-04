@@ -53,7 +53,7 @@ import EditormdLoader from 'editormd-loader';
       - 说明：editor.md的js库路径
   - 示例：
     ```javascript
-    const editormdLoader = new EditormdLoader('app', options);
+    const editormdLoader = new EditormdLoader('./libs/editor.md');
     ```
 
 ###  方法
