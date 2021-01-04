@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8"></meta>
+    <meta charset="utf-8">
     <title>Editor.md 编辑模式</title>
     <script src="./libs/jquery/jquery.min.js"></script>
     <style>
@@ -40,7 +40,11 @@
     <script src="../dist/index.js"></script>
     <script>
       const editormdLoader = new EditormdLoader('./libs/editor.md');
-      editormdLoader.createEditor('editor');
+      $.get("../README.md", (data) => {
+        editormdLoader.createEditor('editor', {
+          markdown: data
+        });
+      });
     </script>
   </body>
 </html>
