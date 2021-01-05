@@ -7,7 +7,7 @@
 ### 通过NPM安装，import导入
 
 ``` bash
-npm install editormd-loader
+npm install --save editormd-loader
 ```
 ``` javascript
 import EditormdLoader from 'editormd-loader';
